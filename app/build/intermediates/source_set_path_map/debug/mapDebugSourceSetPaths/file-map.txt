@@ -1,0 +1,47 @@
+com.example.cocoscan.app-jetified-profileinstaller-1.3.0-0 C:\Users\onila\.gradle\caches\9.0.0\transforms\0dc4acf37fa32e7414745412a5390b51\transformed\jetified-profileinstaller-1.3.0\res
+com.example.cocoscan.app-jetified-emoji2-views-helper-1.2.0-1 C:\Users\onila\.gradle\caches\9.0.0\transforms\2022bed9984fdb3c0d942310e720a7b5\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.example.cocoscan.app-drawerlayout-1.1.1-2 C:\Users\onila\.gradle\caches\9.0.0\transforms\2a7103d40af28a8d3dd9882b0f11566e\transformed\drawerlayout-1.1.1\res
+com.example.cocoscan.app-jetified-lifecycle-process-2.6.2-3 C:\Users\onila\.gradle\caches\9.0.0\transforms\310aabc742b58500c98565ae09b6ec7f\transformed\jetified-lifecycle-process-2.6.2\res
+com.example.cocoscan.app-cardview-1.0.0-4 C:\Users\onila\.gradle\caches\9.0.0\transforms\447d7f8ad4138c995c87c64c81492483\transformed\cardview-1.0.0\res
+com.example.cocoscan.app-jetified-camera-view-1.5.2-5 C:\Users\onila\.gradle\caches\9.0.0\transforms\4885779d40e37b1e3d64823901c45b2b\transformed\jetified-camera-view-1.5.2\res
+com.example.cocoscan.app-lifecycle-viewmodel-2.6.2-6 C:\Users\onila\.gradle\caches\9.0.0\transforms\67ed978eb1d7ceada4c55b27d411b915\transformed\lifecycle-viewmodel-2.6.2\res
+com.example.cocoscan.app-recyclerview-1.1.0-7 C:\Users\onila\.gradle\caches\9.0.0\transforms\74af5a9f5efad6805e926c12e23d1c3f\transformed\recyclerview-1.1.0\res
+com.example.cocoscan.app-lifecycle-livedata-core-2.6.2-8 C:\Users\onila\.gradle\caches\9.0.0\transforms\77ec3f1e3bfb077795455f0b7eceb23c\transformed\lifecycle-livedata-core-2.6.2\res
+com.example.cocoscan.app-lifecycle-runtime-2.6.2-9 C:\Users\onila\.gradle\caches\9.0.0\transforms\7b492c8462dc5109ca1deb535914b571\transformed\lifecycle-runtime-2.6.2\res
+com.example.cocoscan.app-coordinatorlayout-1.1.0-10 C:\Users\onila\.gradle\caches\9.0.0\transforms\7d0a44d13897c99e8d19681632f9535a\transformed\coordinatorlayout-1.1.0\res
+com.example.cocoscan.app-jetified-camera-video-1.5.2-11 C:\Users\onila\.gradle\caches\9.0.0\transforms\7def18909311941eb171d965551698b7\transformed\jetified-camera-video-1.5.2\res
+com.example.cocoscan.app-jetified-glide-4.16.0-12 C:\Users\onila\.gradle\caches\9.0.0\transforms\7df2402626eec681978b4680f78dc447\transformed\jetified-glide-4.16.0\res
+com.example.cocoscan.app-jetified-appcompat-resources-1.6.1-13 C:\Users\onila\.gradle\caches\9.0.0\transforms\8558c9d5ab400504d6dc370332e15324\transformed\jetified-appcompat-resources-1.6.1\res
+com.example.cocoscan.app-jetified-camera-camera2-1.5.2-14 C:\Users\onila\.gradle\caches\9.0.0\transforms\85d1b60905d105d79d139b14bc0c8d1e\transformed\jetified-camera-camera2-1.5.2\res
+com.example.cocoscan.app-jetified-annotation-experimental-1.4.1-15 C:\Users\onila\.gradle\caches\9.0.0\transforms\864d1c7bf6774671fa19535a48bef627\transformed\jetified-annotation-experimental-1.4.1\res
+com.example.cocoscan.app-jetified-featurecombinationquery-1.5.2-16 C:\Users\onila\.gradle\caches\9.0.0\transforms\8900988e9f332d0ef531fda9bfecaee3\transformed\jetified-featurecombinationquery-1.5.2\res
+com.example.cocoscan.app-jetified-lifecycle-viewmodel-savedstate-2.6.2-17 C:\Users\onila\.gradle\caches\9.0.0\transforms\8a1173031990651806cda2aea89f2fb5\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\res
+com.example.cocoscan.app-constraintlayout-2.1.4-18 C:\Users\onila\.gradle\caches\9.0.0\transforms\8cac2ec4b3f90658a4cbd480ffe9d715\transformed\constraintlayout-2.1.4\res
+com.example.cocoscan.app-jetified-camera-lifecycle-1.5.2-19 C:\Users\onila\.gradle\caches\9.0.0\transforms\9080279da4e935944ffa3b6d2b8405c6\transformed\jetified-camera-lifecycle-1.5.2\res
+com.example.cocoscan.app-transition-1.2.0-20 C:\Users\onila\.gradle\caches\9.0.0\transforms\936cfefc940feaaa6a99593dee2eda0d\transformed\transition-1.2.0\res
+com.example.cocoscan.app-sqlite-2.4.0-21 C:\Users\onila\.gradle\caches\9.0.0\transforms\94964a881fff9760e16c9244685144da\transformed\sqlite-2.4.0\res
+com.example.cocoscan.app-appcompat-1.6.1-22 C:\Users\onila\.gradle\caches\9.0.0\transforms\9cdc38d89960366b0f26259078ee7123\transformed\appcompat-1.6.1\res
+com.example.cocoscan.app-jetified-camera-core-1.5.2-23 C:\Users\onila\.gradle\caches\9.0.0\transforms\a36fcab8f8bcd9d564fffe73eb068e87\transformed\jetified-camera-core-1.5.2\res
+com.example.cocoscan.app-jetified-emoji2-1.2.0-24 C:\Users\onila\.gradle\caches\9.0.0\transforms\a623b2272566474a9ddc4c4b978a3796\transformed\jetified-emoji2-1.2.0\res
+com.example.cocoscan.app-jetified-activity-1.8.0-25 C:\Users\onila\.gradle\caches\9.0.0\transforms\a74f47e70a0f95a83e05833b98c15136\transformed\jetified-activity-1.8.0\res
+com.example.cocoscan.app-jetified-viewpager2-1.0.0-26 C:\Users\onila\.gradle\caches\9.0.0\transforms\a9565b14d71d2cfa3bfd20a6a77e3a56\transformed\jetified-viewpager2-1.0.0\res
+com.example.cocoscan.app-jetified-savedstate-1.2.1-27 C:\Users\onila\.gradle\caches\9.0.0\transforms\b4405cc4a0c3fd6937fa5a7426056fad\transformed\jetified-savedstate-1.2.1\res
+com.example.cocoscan.app-material-1.11.0-28 C:\Users\onila\.gradle\caches\9.0.0\transforms\bcad9ad33d3e9e9903208cc8fc7a7850\transformed\material-1.11.0\res
+com.example.cocoscan.app-jetified-tracing-1.2.0-29 C:\Users\onila\.gradle\caches\9.0.0\transforms\bd34e1189fe266b47121b8460ed5fe7b\transformed\jetified-tracing-1.2.0\res
+com.example.cocoscan.app-jetified-core-ktx-1.9.0-30 C:\Users\onila\.gradle\caches\9.0.0\transforms\bd41966ae3970f9b631572c4edb642fc\transformed\jetified-core-ktx-1.9.0\res
+com.example.cocoscan.app-core-runtime-2.2.0-31 C:\Users\onila\.gradle\caches\9.0.0\transforms\bea26c94358e96660649f180ce150399\transformed\core-runtime-2.2.0\res
+com.example.cocoscan.app-core-1.9.0-32 C:\Users\onila\.gradle\caches\9.0.0\transforms\bf4d27849bc2578c5a55f86864abd78f\transformed\core-1.9.0\res
+com.example.cocoscan.app-jetified-startup-runtime-1.1.1-33 C:\Users\onila\.gradle\caches\9.0.0\transforms\d2b8c1d09a51705e7d6e3ea32634b390\transformed\jetified-startup-runtime-1.1.1\res
+com.example.cocoscan.app-room-runtime-2.6.1-34 C:\Users\onila\.gradle\caches\9.0.0\transforms\d3dc53ecf846874cd867836796096d72\transformed\room-runtime-2.6.1\res
+com.example.cocoscan.app-jetified-tracing-ktx-1.2.0-35 C:\Users\onila\.gradle\caches\9.0.0\transforms\d64f8ca399112e981f9d4f99fb85e4f6\transformed\jetified-tracing-ktx-1.2.0\res
+com.example.cocoscan.app-lifecycle-livedata-2.6.2-36 C:\Users\onila\.gradle\caches\9.0.0\transforms\ece0091863e9f9eee8876a9dcbd7dccb\transformed\lifecycle-livedata-2.6.2\res
+com.example.cocoscan.app-fragment-1.3.6-37 C:\Users\onila\.gradle\caches\9.0.0\transforms\f042c856530aba24cec244451b76ab14\transformed\fragment-1.3.6\res
+com.example.cocoscan.app-sqlite-framework-2.4.0-38 C:\Users\onila\.gradle\caches\9.0.0\transforms\fe42f1e6b2d7768f1e2988f03eb73a25\transformed\sqlite-framework-2.4.0\res
+com.example.cocoscan.app-pngs-39 C:\Users\onila\Desktop\Coconut Counting\app\build\generated\res\pngs\debug
+com.example.cocoscan.app-resValues-40 C:\Users\onila\Desktop\Coconut Counting\app\build\generated\res\resValues\debug
+com.example.cocoscan.app-updated_navigation_xml-41 C:\Users\onila\Desktop\Coconut Counting\app\build\generated\updated_navigation_xml\debug
+com.example.cocoscan.app-packageDebugResources-42 C:\Users\onila\Desktop\Coconut Counting\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.cocoscan.app-packageDebugResources-43 C:\Users\onila\Desktop\Coconut Counting\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.cocoscan.app-debug-44 C:\Users\onila\Desktop\Coconut Counting\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.cocoscan.app-debug-45 C:\Users\onila\Desktop\Coconut Counting\app\src\debug\res
+com.example.cocoscan.app-main-46 C:\Users\onila\Desktop\Coconut Counting\app\src\main\res

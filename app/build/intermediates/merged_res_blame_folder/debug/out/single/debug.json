@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "com.example.cocoscan.app-merged_res-40:/drawable_bg_search_bar.xml.flat",
+        "source": "com.example.cocoscan.app-main-42:/drawable/bg_search_bar.xml"
+    },
+    {
+        "merged": "com.example.cocoscan.app-merged_res-40:/drawable_bg_metric_box.xml.flat",
+        "source": "com.example.cocoscan.app-main-42:/drawable/bg_metric_box.xml"
+    },
+    {
+        "merged": "com.example.cocoscan.app-merged_res-40:/layout_fragment_snapshot_detail.xml.flat",
+        "source": "com.example.cocoscan.app-main-42:/layout/fragment_snapshot_detail.xml"
+    },
+    {
+        "merged": "com.example.cocoscan.app-merged_res-40:/layout_fragment_live_detection.xml.flat",
+        "source": "com.example.cocoscan.app-main-42:/layout/fragment_live_detection.xml"
+    },
+    {
+        "merged": "com.example.cocoscan.app-merged_res-40:/layout_activity_main.xml.flat",
+        "source": "com.example.cocoscan.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.cocoscan.app-merged_res-40:/layout_item_history_record.xml.flat",
+        "source": "com.example.cocoscan.app-main-42:/layout/item_history_record.xml"
+    },
+    {
+        "merged": "com.example.cocoscan.app-merged_res-40:/drawable_bg_metric_box_secondary.xml.flat",
+        "source": "com.example.cocoscan.app-main-42:/drawable/bg_metric_box_secondary.xml"
+    },
+    {
+        "merged": "com.example.cocoscan.app-merged_res-40:/drawable_bg_status_badge.xml.flat",
+        "source": "com.example.cocoscan.app-main-42:/drawable/bg_status_badge.xml"
+    },
+    {
+        "merged": "com.example.cocoscan.app-merged_res-40:/drawable_bg_bottom_sheet.xml.flat",
+        "source": "com.example.cocoscan.app-main-42:/drawable/bg_bottom_sheet.xml"
+    },
+    {
+        "merged": "com.example.cocoscan.app-merged_res-40:/layout_fragment_detection_history.xml.flat",
+        "source": "com.example.cocoscan.app-main-42:/layout/fragment_detection_history.xml"
+    },
+    {
+        "merged": "com.example.cocoscan.app-merged_res-40:/layout_fragment_settings.xml.flat",
+        "source": "com.example.cocoscan.app-main-42:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "com.example.cocoscan.app-merged_res-40:/drawable_bg_conf_badge.xml.flat",
+        "source": "com.example.cocoscan.app-main-42:/drawable/bg_conf_badge.xml"
+    },
+    {
+        "merged": "com.example.cocoscan.app-merged_res-40:/menu_menu_bottom_nav.xml.flat",
+        "source": "com.example.cocoscan.app-main-42:/menu/menu_bottom_nav.xml"
+    },
+    {
+        "merged": "com.example.cocoscan.app-merged_res-40:/drawable_bg_control_button.xml.flat",
+        "source": "com.example.cocoscan.app-main-42:/drawable/bg_control_button.xml"
+    },
+    {
+        "merged": "com.example.cocoscan.app-merged_res-40:/color_nav_item_color.xml.flat",
+        "source": "com.example.cocoscan.app-main-42:/color/nav_item_color.xml"
+    },
+    {
+        "merged": "com.example.cocoscan.app-merged_res-40:/drawable_bg_count_container.xml.flat",
+        "source": "com.example.cocoscan.app-main-42:/drawable/bg_count_container.xml"
+    }
+]

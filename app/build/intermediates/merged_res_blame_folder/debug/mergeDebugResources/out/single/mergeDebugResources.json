@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-debug-43:\\drawable_bg_metric_box.xml.flat",
+        "source": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-main-45:\\drawable\\bg_metric_box.xml"
+    },
+    {
+        "merged": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-debug-43:\\menu_menu_bottom_nav.xml.flat",
+        "source": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-main-45:\\menu\\menu_bottom_nav.xml"
+    },
+    {
+        "merged": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-debug-43:\\drawable_bg_search_bar.xml.flat",
+        "source": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-main-45:\\drawable\\bg_search_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-debug-43:\\color_nav_item_color.xml.flat",
+        "source": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-main-45:\\color\\nav_item_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-debug-43:\\layout_fragment_live_detection.xml.flat",
+        "source": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-main-45:\\layout\\fragment_live_detection.xml"
+    },
+    {
+        "merged": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-debug-43:\\drawable_bg_count_container.xml.flat",
+        "source": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-main-45:\\drawable\\bg_count_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-debug-43:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-main-45:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-debug-43:\\layout_item_history_record.xml.flat",
+        "source": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-main-45:\\layout\\item_history_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-debug-43:\\layout_fragment_snapshot_detail.xml.flat",
+        "source": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-main-45:\\layout\\fragment_snapshot_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-debug-43:\\layout_fragment_settings.xml.flat",
+        "source": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-main-45:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "com.example.cocoscan.app-debug-43:/layout_fragment_live_detection.xml.flat",
+        "source": "com.example.cocoscan.app-main-45:/layout/fragment_live_detection.xml"
+    },
+    {
+        "merged": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-debug-43:\\drawable_bg_conf_badge.xml.flat",
+        "source": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-main-45:\\drawable\\bg_conf_badge.xml"
+    },
+    {
+        "merged": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-debug-43:\\drawable_bg_control_button.xml.flat",
+        "source": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-main-45:\\drawable\\bg_control_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-debug-43:\\drawable_bg_metric_box_secondary.xml.flat",
+        "source": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-main-45:\\drawable\\bg_metric_box_secondary.xml"
+    },
+    {
+        "merged": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-debug-43:\\layout_fragment_detection_history.xml.flat",
+        "source": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-main-45:\\layout\\fragment_detection_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-debug-43:\\layout_fragment_process_image.xml.flat",
+        "source": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-main-45:\\layout\\fragment_process_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-debug-43:\\drawable_bg_status_badge.xml.flat",
+        "source": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-main-45:\\drawable\\bg_status_badge.xml"
+    },
+    {
+        "merged": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-debug-43:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-main-45:\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-debug-43:\\drawable_bg_bottom_sheet.xml.flat",
+        "source": "C:\\Users\\onila\\.gradle\\daemon\\9.0.0\\com.example.cocoscan.app-main-45:\\drawable\\bg_bottom_sheet.xml"
+    }
+]

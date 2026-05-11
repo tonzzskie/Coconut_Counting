@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.example.cocoscan.app-mergeDebugResources-39:/layout/fragment_snapshot_detail.xml",
+        "source": "com.example.cocoscan.app-main-42:/layout/fragment_snapshot_detail.xml"
+    },
+    {
+        "merged": "com.example.cocoscan.app-mergeDebugResources-39:/layout/activity_main.xml",
+        "source": "com.example.cocoscan.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.cocoscan.app-mergeDebugResources-39:/layout/item_history_record.xml",
+        "source": "com.example.cocoscan.app-main-42:/layout/item_history_record.xml"
+    },
+    {
+        "merged": "com.example.cocoscan.app-mergeDebugResources-39:/layout/fragment_detection_history.xml",
+        "source": "com.example.cocoscan.app-main-42:/layout/fragment_detection_history.xml"
+    },
+    {
+        "merged": "com.example.cocoscan.app-mergeDebugResources-39:/layout/fragment_live_detection.xml",
+        "source": "com.example.cocoscan.app-main-42:/layout/fragment_live_detection.xml"
+    },
+    {
+        "merged": "com.example.cocoscan.app-mergeDebugResources-39:/layout/fragment_settings.xml",
+        "source": "com.example.cocoscan.app-main-42:/layout/fragment_settings.xml"
+    }
+]

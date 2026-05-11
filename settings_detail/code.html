@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CocoScan - Settings</title>
+<!-- Material Symbols Link -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Config -->
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "surface-container-low": "#f3f3f3",
+            "primary-fixed": "#a3f69c",
+            "surface": "#f9f9f9",
+            "on-secondary": "#ffffff",
+            "on-tertiary-fixed": "#002203",
+            "on-tertiary": "#ffffff",
+            "on-secondary-fixed-variant": "#5c4300",
+            "secondary-fixed-dim": "#f8bd2a",
+            "inverse-on-surface": "#f1f1f1",
+            "on-surface": "#1a1c1c",
+            "on-tertiary-fixed-variant": "#0c5216",
+            "surface-container": "#eeeeee",
+            "surface-container-highest": "#e2e2e2",
+            "on-background": "#1a1c1c",
+            "secondary-fixed": "#ffdfa0",
+            "surface-variant": "#e2e2e2",
+            "error-container": "#ffdad6",
+            "on-primary-container": "#cbffc2",
+            "secondary": "#795900",
+            "inverse-primary": "#88d982",
+            "on-primary-fixed-variant": "#005312",
+            "on-primary-fixed": "#002204",
+            "surface-dim": "#dadada",
+            "tertiary": "#1f6223",
+            "surface-container-lowest": "#ffffff",
+            "tertiary-container": "#3a7b39",
+            "surface-tint": "#1b6d24",
+            "inverse-surface": "#2f3131",
+            "on-error": "#ffffff",
+            "outline": "#707a6c",
+            "background": "#f9f9f9",
+            "outline-variant": "#bfcaba",
+            "error": "#ba1a1a",
+            "surface-container-high": "#e8e8e8",
+            "secondary-container": "#fec330",
+            "on-surface-variant": "#40493d",
+            "on-secondary-container": "#6f5100",
+            "primary-container": "#2e7d32",
+            "primary": "#0d631b",
+            "on-error-container": "#93000a",
+            "primary-fixed-dim": "#88d982",
+            "tertiary-fixed-dim": "#91d78a",
+            "on-primary": "#ffffff",
+            "surface-bright": "#f9f9f9",
+            "on-tertiary-container": "#c8ffbf",
+            "tertiary-fixed": "#acf4a4",
+            "on-secondary-fixed": "#261a00"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "lg": "24px",
+            "xl": "32px",
+            "margin-mobile": "16px",
+            "margin-tablet": "24px",
+            "sm": "8px",
+            "gutter": "16px",
+            "xs": "4px",
+            "base": "8px",
+            "md": "16px"
+          },
+          "fontFamily": {
+            "headline-md": ["Work Sans"],
+            "label-lg": ["Work Sans"],
+            "body-lg": ["Work Sans"],
+            "label-sm": ["Work Sans"],
+            "title-lg": ["Work Sans"],
+            "body-md": ["Work Sans"],
+            "headline-lg": ["Work Sans"],
+            "display-lg": ["Work Sans"]
+          },
+          "fontSize": {
+            "headline-md": ["28px", {"lineHeight": "36px", "letterSpacing": "0px", "fontWeight": "500"}],
+            "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.1px", "fontWeight": "500"}],
+            "body-lg": ["16px", {"lineHeight": "24px", "letterSpacing": "0.5px", "fontWeight": "400"}],
+            "label-sm": ["11px", {"lineHeight": "16px", "letterSpacing": "0.5px", "fontWeight": "500"}],
+            "title-lg": ["22px", {"lineHeight": "28px", "letterSpacing": "0px", "fontWeight": "500"}],
+            "body-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.25px", "fontWeight": "400"}],
+            "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "0px", "fontWeight": "600"}],
+            "display-lg": ["57px", {"lineHeight": "64px", "letterSpacing": "-0.25px", "fontWeight": "400"}]
+          }
+        },
+      },
+    }
+  </script>
+<style>
+    body { font-family: 'Work Sans', sans-serif; }
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+    input[type="range"] {
+      -webkit-appearance: none;
+      appearance: none;
+      background: transparent;
+      cursor: pointer;
+    }
+    input[type="range"]::-webkit-slider-runnable-track {
+      background: #eeeeee;
+      height: 4px;
+      border-radius: 2px;
+    }
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      margin-top: -6px;
+      background-color: #0d631b;
+      height: 16px;
+      width: 16px;
+      border-radius: 50%;
+    }
+    .toggle-checkbox:checked {
+      right: 0;
+      border-color: #2e7d32;
+    }
+    .toggle-checkbox:checked + .toggle-label {
+      background-color: #2e7d32;
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background min-h-screen pb-32">
+<!-- Shared Component: TopAppBar -->
+<header class="bg-slate-50 dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 fixed top-0 full-width z-50 flex justify-between items-center w-full px-4 h-16">
+<div class="flex items-center gap-3">
+<div aria-label="User Profile" class="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-white font-bold text-xs">
+        JD
+      </div>
+<h1 class="text-xl font-bold tracking-tight text-green-900 dark:text-green-200">CocoScan</h1>
+</div>
+<div class="text-green-800 dark:text-green-400 font-['Work_Sans'] font-semibold text-lg">
+      Settings
+    </div>
+<button class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+<span class="material-symbols-outlined" data-icon="help">help</span>
+</button>
+</header>
+<main class="max-w-2xl mx-auto px-margin-mobile pt-24 space-y-lg">
+<!-- Hero Card / Profile Context -->
+<div class="bg-white border border-outline-variant p-lg rounded-xl flex items-center gap-md">
+<img alt="Profile Image" class="w-16 h-16 rounded-full object-cover" data-alt="portrait of a professional agronomist in a sunlit palm plantation wearing a wide-brimmed hat" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqCpMXzGrPU9m4V_R78_qCy2kmUQxxzzMS13pZPY46tHLYz5iOYD9sbVvK9kXbc8IS2mQ2Lyc1O0TPnKcFceji2xG5-Oz2JV_qVvC6vjZBh1oaMy1VVpBHWWJbAxBFBLOgd3gBl4daWiDBcKrQm24SvJdJyRwA7dbFmQMLI2kIank4eYtMNMO_lQOm59URLbFcDGuH_xb81gcjUZ4Ei2glxfNJuXkLloxdtksOVwpCoE0C35xyUU1ojPSVhT5XnNesQ94otyw_v3k"/>
+<div>
+<h2 class="font-title-lg text-title-lg text-on-surface">James D.</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Lead Surveyor • Plantation Sector 7</p>
+</div>
+</div>
+<!-- Section: Detection Parameters -->
+<section>
+<div class="flex items-center gap-xs mb-md">
+<span class="material-symbols-outlined text-primary" data-icon="settings_input_component">settings_input_component</span>
+<h3 class="font-label-lg text-label-lg text-primary uppercase tracking-wider">Detection Parameters</h3>
+</div>
+<div class="bg-white border border-outline-variant rounded-xl overflow-hidden divide-y divide-outline-variant">
+<!-- Confidence Threshold Slider -->
+<div class="p-lg">
+<div class="flex justify-between items-center mb-sm">
+<label class="font-body-lg text-body-lg font-medium">Confidence Threshold</label>
+<span class="bg-secondary-container text-on-secondary-container px-2 py-0.5 rounded-full text-xs font-bold">0.75</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-md">Minimum AI score to register a coconut count.</p>
+<input class="w-full h-2 rounded-lg cursor-pointer" max="100" min="0" type="range" value="75"/>
+</div>
+<!-- NMS Threshold Slider -->
+<div class="p-lg">
+<div class="flex justify-between items-center mb-sm">
+<label class="font-body-lg text-body-lg font-medium">NMS Threshold</label>
+<span class="bg-surface-container-high text-on-surface px-2 py-0.5 rounded-full text-xs font-bold">0.45</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-md">Adjusts overlap sensitivity to prevent double-counting.</p>
+<input class="w-full h-2 rounded-lg cursor-pointer" max="100" min="0" type="range" value="45"/>
+</div>
+</div>
+</section>
+<!-- Section: Performance -->
+<section>
+<div class="flex items-center gap-xs mb-md">
+<span class="material-symbols-outlined text-primary" data-icon="speed">speed</span>
+<h3 class="font-label-lg text-label-lg text-primary uppercase tracking-wider">Performance</h3>
+</div>
+<div class="bg-white border border-outline-variant rounded-xl overflow-hidden divide-y divide-outline-variant">
+<!-- GPU Acceleration Toggle -->
+<div class="p-lg flex items-center justify-between">
+<div class="flex-1 pr-4">
+<h4 class="font-body-lg text-body-lg font-medium">GPU Acceleration</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Use local neural engine for faster field processing.</p>
+</div>
+<div class="relative inline-block w-12 align-middle select-none transition duration-200 ease-in">
+<input checked="" class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer right-0 border-primary" id="gpu-toggle" name="toggle" type="checkbox"/>
+<label class="toggle-label block overflow-hidden h-6 rounded-full bg-primary cursor-pointer" for="gpu-toggle"></label>
+</div>
+</div>
+<!-- Performance Mode Toggle -->
+<div class="p-lg flex items-center justify-between">
+<div class="flex-1 pr-4">
+<h4 class="font-body-lg text-body-lg font-medium">Performance Mode</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Low-resolution preview to save battery in high heat.</p>
+</div>
+<div class="relative inline-block w-12 align-middle select-none transition duration-200 ease-in">
+<input class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer left-0 border-outline-variant" id="perf-toggle" name="toggle" type="checkbox"/>
+<label class="toggle-label block overflow-hidden h-6 rounded-full bg-surface-container cursor-pointer" for="perf-toggle"></label>
+</div>
+</div>
+</div>
+</section>
+<!-- Section: About -->
+<section>
+<div class="flex items-center gap-xs mb-md">
+<span class="material-symbols-outlined text-primary" data-icon="info">info</span>
+<h3 class="font-label-lg text-label-lg text-primary uppercase tracking-wider">About</h3>
+</div>
+<div class="bg-surface-container-low rounded-xl p-lg space-y-md border border-outline-variant">
+<div class="flex justify-between items-center">
+<span class="font-body-md text-body-md text-on-surface-variant">App Version</span>
+<span class="font-label-lg text-label-lg font-bold">v2.4.0-stable</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="font-body-md text-body-md text-on-surface-variant">Model Engine</span>
+<span class="font-label-lg text-label-lg">COCO-V5-XL</span>
+</div>
+<div class="pt-base border-t border-outline-variant">
+<a class="flex items-center justify-between text-primary font-medium hover:underline" href="#">
+<span>Read Documentation</span>
+<span class="material-symbols-outlined" data-icon="open_in_new">open_in_new</span>
+</a>
+</div>
+</div>
+</section>
+<!-- AI Insight Banner -->
+<div class="bg-secondary-container/20 border border-secondary p-md rounded-xl flex gap-md items-start">
+<span class="material-symbols-outlined text-secondary" data-icon="tips_and_updates">tips_and_updates</span>
+<div>
+<h5 class="font-label-lg text-label-lg text-on-secondary-container font-bold">Optimization Tip</h5>
+<p class="font-body-md text-body-md text-on-secondary-container">Lowering Confidence Threshold below 0.60 may increase false positives in dense foliage.</p>
+</div>
+</div>
+</main>
+<!-- Shared Component: BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-center px-4 py-3 pb-safe bg-white/90 dark:bg-slate-900/90 backdrop-blur-md z-50 rounded-t-2xl border-t border-slate-200 dark:border-slate-800 shadow-[0_-4px_12px_rgba(46,125,50,0.08)]">
+<a class="flex flex-col items-center justify-center text-slate-500 dark:text-slate-400 px-5 py-1 hover:bg-slate-50 dark:hover:bg-slate-800 transition-all active:scale-90 duration-150" href="#">
+<span class="material-symbols-outlined" data-icon="visibility">visibility</span>
+<span class="font-['Work_Sans'] text-[12px] font-medium">Detect</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-500 dark:text-slate-400 px-5 py-1 hover:bg-slate-50 dark:hover:bg-slate-800 transition-all active:scale-90 duration-150" href="#">
+<span class="material-symbols-outlined" data-icon="history">history</span>
+<span class="font-['Work_Sans'] text-[12px] font-medium">History</span>
+</a>
+<!-- Active State: Settings -->
+<a class="flex flex-col items-center justify-center bg-green-100 dark:bg-green-900/30 text-green-900 dark:text-green-100 rounded-2xl px-5 py-1 transition-all active:scale-90 duration-150" href="#">
+<span class="material-symbols-outlined" data-icon="settings" style="font-variation-settings: 'FILL' 1;">settings</span>
+<span class="font-['Work_Sans'] text-[12px] font-medium">Settings</span>
+</a>
+</nav>
+</body></html>

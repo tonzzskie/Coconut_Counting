@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="error">#ba1a1a</color>
+    <color name="on_primary">#ffffff</color>
+    <color name="on_primary_container">#cbffc2</color>
+    <color name="on_secondary">#ffffff</color>
+    <color name="on_secondary_container">#6f5100</color>
+    <color name="on_surface">#1a1c1c</color>
+    <color name="on_surface_variant">#40493d</color>
+    <color name="outline">#707a6c</color>
+    <color name="outline_variant">#bfcaba</color>
+    <color name="primary">#0d631b</color>
+    <color name="primary_container">#2e7d32</color>
+    <color name="secondary">#795900</color>
+    <color name="secondary_container">#fec330</color>
+    <color name="surface">#f9f9f9</color>
+    <color name="surface_container">#eeeeee</color>
+    <color name="surface_container_high">#e8e8e8</color>
+    <color name="surface_container_low">#f3f3f3</color>
+    <color name="surface_container_lowest">#ffffff</color>
+    <string name="app_name">CocoScan</string>
+    <style name="Theme.CocoScan" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_container</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_container</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>

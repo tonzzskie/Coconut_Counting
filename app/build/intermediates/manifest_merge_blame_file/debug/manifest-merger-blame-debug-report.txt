@@ -1,0 +1,190 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.cocoscan"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Camera Permissions -->
+12    <uses-feature
+12-->C:\Users\onila\Desktop\Coconut Counting\app\src\main\AndroidManifest.xml:6:5-84
+13        android:name="android.hardware.camera"
+13-->C:\Users\onila\Desktop\Coconut Counting\app\src\main\AndroidManifest.xml:6:19-57
+14        android:required="true" />
+14-->C:\Users\onila\Desktop\Coconut Counting\app\src\main\AndroidManifest.xml:6:58-81
+15
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->C:\Users\onila\Desktop\Coconut Counting\app\src\main\AndroidManifest.xml:7:5-65
+16-->C:\Users\onila\Desktop\Coconut Counting\app\src\main\AndroidManifest.xml:7:22-62
+17
+18    <permission
+18-->[androidx.core:core:1.9.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\c502667be7d09d8db2a96c0cbb6f47e2\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+19        android:name="com.example.cocoscan.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.9.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\c502667be7d09d8db2a96c0cbb6f47e2\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.9.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\c502667be7d09d8db2a96c0cbb6f47e2\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="com.example.cocoscan.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+22-->[androidx.core:core:1.9.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\c502667be7d09d8db2a96c0cbb6f47e2\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.9.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\c502667be7d09d8db2a96c0cbb6f47e2\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+23    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+24    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+25    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+26    <!--
+27 Storage permissions are not strictly needed on newer Androids for app-specific directories,
+28         but good to have if we need MediaStore later. For now we use Context.getFilesDir()
+29    -->
+30    <application
+30-->C:\Users\onila\Desktop\Coconut Counting\app\src\main\AndroidManifest.xml:12:5-27:19
+31        android:allowBackup="true"
+31-->C:\Users\onila\Desktop\Coconut Counting\app\src\main\AndroidManifest.xml:13:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.9.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\c502667be7d09d8db2a96c0cbb6f47e2\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+33        android:debuggable="true"
+34        android:extractNativeLibs="false"
+35        android:icon="@mipmap/ic_launcher"
+35-->C:\Users\onila\Desktop\Coconut Counting\app\src\main\AndroidManifest.xml:14:9-43
+36        android:label="@string/app_name"
+36-->C:\Users\onila\Desktop\Coconut Counting\app\src\main\AndroidManifest.xml:15:9-41
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->C:\Users\onila\Desktop\Coconut Counting\app\src\main\AndroidManifest.xml:16:9-54
+38        android:supportsRtl="true"
+38-->C:\Users\onila\Desktop\Coconut Counting\app\src\main\AndroidManifest.xml:17:9-35
+39        android:theme="@style/Theme.CocoScan" >
+39-->C:\Users\onila\Desktop\Coconut Counting\app\src\main\AndroidManifest.xml:18:9-46
+40        <activity
+40-->C:\Users\onila\Desktop\Coconut Counting\app\src\main\AndroidManifest.xml:19:9-26:20
+41            android:name="com.example.cocoscan.ui.MainActivity"
+41-->C:\Users\onila\Desktop\Coconut Counting\app\src\main\AndroidManifest.xml:20:13-44
+42            android:exported="true" >
+42-->C:\Users\onila\Desktop\Coconut Counting\app\src\main\AndroidManifest.xml:21:13-36
+43            <intent-filter>
+43-->C:\Users\onila\Desktop\Coconut Counting\app\src\main\AndroidManifest.xml:22:13-25:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\onila\Desktop\Coconut Counting\app\src\main\AndroidManifest.xml:23:17-69
+44-->C:\Users\onila\Desktop\Coconut Counting\app\src\main\AndroidManifest.xml:23:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\onila\Desktop\Coconut Counting\app\src\main\AndroidManifest.xml:24:17-77
+46-->C:\Users\onila\Desktop\Coconut Counting\app\src\main\AndroidManifest.xml:24:27-74
+47            </intent-filter>
+48        </activity>
+49
+50        <service
+50-->[androidx.camera:camera-camera2:1.3.1] C:\Users\onila\.gradle\caches\9.0.0\transforms\b9adc1a9ae45f5f978a34895b7151860\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:24:9-33:19
+51            android:name="androidx.camera.core.impl.MetadataHolderService"
+51-->[androidx.camera:camera-camera2:1.3.1] C:\Users\onila\.gradle\caches\9.0.0\transforms\b9adc1a9ae45f5f978a34895b7151860\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:25:13-75
+52            android:enabled="false"
+52-->[androidx.camera:camera-camera2:1.3.1] C:\Users\onila\.gradle\caches\9.0.0\transforms\b9adc1a9ae45f5f978a34895b7151860\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:26:13-36
+53            android:exported="false" >
+53-->[androidx.camera:camera-camera2:1.3.1] C:\Users\onila\.gradle\caches\9.0.0\transforms\b9adc1a9ae45f5f978a34895b7151860\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:27:13-37
+54            <meta-data
+54-->[androidx.camera:camera-camera2:1.3.1] C:\Users\onila\.gradle\caches\9.0.0\transforms\b9adc1a9ae45f5f978a34895b7151860\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:30:13-32:89
+55                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+55-->[androidx.camera:camera-camera2:1.3.1] C:\Users\onila\.gradle\caches\9.0.0\transforms\b9adc1a9ae45f5f978a34895b7151860\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:31:17-103
+56                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+56-->[androidx.camera:camera-camera2:1.3.1] C:\Users\onila\.gradle\caches\9.0.0\transforms\b9adc1a9ae45f5f978a34895b7151860\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:32:17-86
+57        </service>
+58
+59        <provider
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\2083ceb9e37ca90f02109580d91d6cdb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+60            android:name="androidx.startup.InitializationProvider"
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\2083ceb9e37ca90f02109580d91d6cdb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+61            android:authorities="com.example.cocoscan.androidx-startup"
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\2083ceb9e37ca90f02109580d91d6cdb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+62            android:exported="false" >
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\2083ceb9e37ca90f02109580d91d6cdb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+63            <meta-data
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\2083ceb9e37ca90f02109580d91d6cdb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\2083ceb9e37ca90f02109580d91d6cdb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+65                android:value="androidx.startup" />
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\2083ceb9e37ca90f02109580d91d6cdb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\onila\.gradle\caches\9.0.0\transforms\938c00ed92582042f5804e14de6b1cdf\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\onila\.gradle\caches\9.0.0\transforms\938c00ed92582042f5804e14de6b1cdf\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+68                android:value="androidx.startup" />
+68-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\onila\.gradle\caches\9.0.0\transforms\938c00ed92582042f5804e14de6b1cdf\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+69            <meta-data
+69-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\30108afac18d57ecfc1ca1ae20bca060\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+70-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\30108afac18d57ecfc1ca1ae20bca060\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+71                android:value="androidx.startup" />
+71-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\30108afac18d57ecfc1ca1ae20bca060\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+72        </provider>
+73        <!--
+74 Applications that target Android S+ require explicit declaration of
+75             any referenced vendor-provided libraries.
+76        -->
+77        <uses-native-library
+77-->[org.tensorflow:tensorflow-lite-gpu-api:2.14.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\058005c0193090993a6b3e3bc59d9b45\transformed\jetified-tensorflow-lite-gpu-api-2.14.0\AndroidManifest.xml:8:9-10:40
+78            android:name="libOpenCL.so"
+78-->[org.tensorflow:tensorflow-lite-gpu-api:2.14.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\058005c0193090993a6b3e3bc59d9b45\transformed\jetified-tensorflow-lite-gpu-api-2.14.0\AndroidManifest.xml:9:13-40
+79            android:required="false" />
+79-->[org.tensorflow:tensorflow-lite-gpu-api:2.14.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\058005c0193090993a6b3e3bc59d9b45\transformed\jetified-tensorflow-lite-gpu-api-2.14.0\AndroidManifest.xml:10:13-37
+80        <uses-native-library
+80-->[org.tensorflow:tensorflow-lite-gpu-api:2.14.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\058005c0193090993a6b3e3bc59d9b45\transformed\jetified-tensorflow-lite-gpu-api-2.14.0\AndroidManifest.xml:8:9-10:40
+81            android:name="libOpenCL-car.so"
+81-->[org.tensorflow:tensorflow-lite-gpu-api:2.14.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\058005c0193090993a6b3e3bc59d9b45\transformed\jetified-tensorflow-lite-gpu-api-2.14.0\AndroidManifest.xml:9:13-40
+82            android:required="false" />
+82-->[org.tensorflow:tensorflow-lite-gpu-api:2.14.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\058005c0193090993a6b3e3bc59d9b45\transformed\jetified-tensorflow-lite-gpu-api-2.14.0\AndroidManifest.xml:10:13-37
+83        <uses-native-library
+83-->[org.tensorflow:tensorflow-lite-gpu-api:2.14.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\058005c0193090993a6b3e3bc59d9b45\transformed\jetified-tensorflow-lite-gpu-api-2.14.0\AndroidManifest.xml:8:9-10:40
+84            android:name="libOpenCL-pixel.so"
+84-->[org.tensorflow:tensorflow-lite-gpu-api:2.14.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\058005c0193090993a6b3e3bc59d9b45\transformed\jetified-tensorflow-lite-gpu-api-2.14.0\AndroidManifest.xml:9:13-40
+85            android:required="false" />
+85-->[org.tensorflow:tensorflow-lite-gpu-api:2.14.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\058005c0193090993a6b3e3bc59d9b45\transformed\jetified-tensorflow-lite-gpu-api-2.14.0\AndroidManifest.xml:10:13-37
+86
+87        <service
+87-->[androidx.room:room-runtime:2.6.1] C:\Users\onila\.gradle\caches\9.0.0\transforms\31dd5c9ed2b013d24c7b888842907e2b\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+88            android:name="androidx.room.MultiInstanceInvalidationService"
+88-->[androidx.room:room-runtime:2.6.1] C:\Users\onila\.gradle\caches\9.0.0\transforms\31dd5c9ed2b013d24c7b888842907e2b\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+89            android:directBootAware="true"
+89-->[androidx.room:room-runtime:2.6.1] C:\Users\onila\.gradle\caches\9.0.0\transforms\31dd5c9ed2b013d24c7b888842907e2b\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+90            android:exported="false" />
+90-->[androidx.room:room-runtime:2.6.1] C:\Users\onila\.gradle\caches\9.0.0\transforms\31dd5c9ed2b013d24c7b888842907e2b\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+91
+92        <receiver
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\30108afac18d57ecfc1ca1ae20bca060\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+93            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\30108afac18d57ecfc1ca1ae20bca060\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+94            android:directBootAware="false"
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\30108afac18d57ecfc1ca1ae20bca060\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+95            android:enabled="true"
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\30108afac18d57ecfc1ca1ae20bca060\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+96            android:exported="true"
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\30108afac18d57ecfc1ca1ae20bca060\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+97            android:permission="android.permission.DUMP" >
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\30108afac18d57ecfc1ca1ae20bca060\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+98            <intent-filter>
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\30108afac18d57ecfc1ca1ae20bca060\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+99                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\30108afac18d57ecfc1ca1ae20bca060\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\30108afac18d57ecfc1ca1ae20bca060\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+100            </intent-filter>
+101            <intent-filter>
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\30108afac18d57ecfc1ca1ae20bca060\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+102                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\30108afac18d57ecfc1ca1ae20bca060\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\30108afac18d57ecfc1ca1ae20bca060\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+103            </intent-filter>
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\30108afac18d57ecfc1ca1ae20bca060\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+105                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\30108afac18d57ecfc1ca1ae20bca060\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\30108afac18d57ecfc1ca1ae20bca060\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+106            </intent-filter>
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\30108afac18d57ecfc1ca1ae20bca060\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+108                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\30108afac18d57ecfc1ca1ae20bca060\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\onila\.gradle\caches\9.0.0\transforms\30108afac18d57ecfc1ca1ae20bca060\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+109            </intent-filter>
+110        </receiver>
+111    </application>
+112
+113</manifest>
